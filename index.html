@@ -61,7 +61,7 @@
                               <span v-if="product.space === cartCount(product.id)">
                                  Sold out!
                                  </span>
-                                 <span v-else-if="product.space - cartCount(product.id) < 9">
+                                 <span v-else-if="product.space - cartCount(product.id) < 10">
                                     Only {{product.space - cartCount(product.id)}} spaces left!!
                                     </span>
                                     <span v-else>Buy Now!</span>
